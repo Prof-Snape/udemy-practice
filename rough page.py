@@ -1,2 +1,3 @@
-a = ["aaa", "bbb", "ccc"]
-print(a)
+a = 6
+b = a // 2
+print(b)
