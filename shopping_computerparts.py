@@ -1,4 +1,4 @@
-computer_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat"]
+computer_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat", "hdmi cable"]
 chosen_parts = []
 choice = "100"
 
