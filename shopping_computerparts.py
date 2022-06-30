@@ -1,6 +1,6 @@
 computer_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat", "hdmi cable"]
 chosen_parts = []
-choice = "100"
+choice = "100"  # anything other than num 0.
 
 while choice != 0:
     if choice in range(1, len(computer_parts) + 1):
