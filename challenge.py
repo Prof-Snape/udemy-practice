@@ -13,5 +13,4 @@ while a != "0":
 
     a = input()
 
-else:
-    print("You Quit.")
+print("You Quit.")
