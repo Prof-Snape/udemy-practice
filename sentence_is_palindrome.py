@@ -6,7 +6,9 @@ def palindrome(sent):
 sentence = "Was it a car, or a cat, I saw?"
 sentence_2 = "Do geese see god?"
 sentence_3 = "Desnes not far, Rafton sensed."
+sentence_4 = "Not a palindrome sentence."
 
 print(palindrome(sentence))
 print(palindrome(sentence_2))
 print(palindrome(sentence_3))
+print(palindrome(sentence_4))
