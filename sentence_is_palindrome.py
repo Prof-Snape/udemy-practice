@@ -1,4 +1,13 @@
-def palindrome(sent):
+def palindrome(sent: str) -> bool:
+    """
+    Check if the sentence is a palindrome.
+
+    The function will trim all non-alphanumeric characters from the sentence then convert every `str` in lowercase
+    and check if it equals to when it is reversed.
+
+    :param sent: The sentence that user will check for palindrome.
+    :return: The boolean expression True if the sentence is a palindrome else False.
+    """
     sent = "".join(i for i in sent if i.isalnum())
     return sent[::-1].casefold() == sent.casefold()
 
